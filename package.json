@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "start:dev" : "nodemon server.js",
     "dev": "nodemon server.js"
   },
   "author": "",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.5",
     "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.20",
     "stripe": "^8.174.0",
     "validator": "^13.6.0"
   }
